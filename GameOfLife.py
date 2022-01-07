@@ -5,14 +5,6 @@ import random as rd
 width = 5
 height = 5
 dead_state = []
-board_state = [
-    [1, 1, 1, 1, 1, 1, 1],
-    [1, 1, 1, 1, 1, 1, 1],
-    [1, 1, 1, 1, 1, 1, 1],
-    [1, 1, 1, 1, 1, 1, 1],
-    [1, 0, 1, 1, 1, 1, 1],
-    [1, 1, 1, 1, 1, 1, 1]
-]
 
 
 def DState(dh, dw):  # initialize input
